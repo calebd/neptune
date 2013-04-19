@@ -1,40 +1,40 @@
 //
-//  NSUserDefaults+Nimbus.m
+//  NSUserDefaults+Neptune.m
 //
 //  Created by Caleb Davenport on 4/18/13.
 //  Copyright (c) 2013 Caleb Davenport. All rights reserved.
 //
 
-#import "NSUserDefaults+Nimbus.h"
+#import "NSUserDefaults+Neptune.m"
 
-@implementation NSUserDefaults (Nimbus)
+@implementation NSUserDefaults (Neptune)
 
 + (NSOperationQueue *)nimbus_queue {
     static NSOperationQueue *queue;
     static dispatch_once_t token;
     dispatch_once(&token, ^{
         queue = [[NSOperationQueue alloc] init];
-        [queue setName:@"me.calebd.Nimbus.RequestQueue"];
+        [queue setName:@"me.calebd.Neptune.RequestQueue"];
     });
     return queue;
 }
 
 
-- (void)nimbus_registerDefaultsWithLocalURL:(NSURL *)localURL
-                                  remoteURL:(NSURL *)remoteURL
-                                 completion:(void (^) (NSDictionary *dictionary, NSError *error))completion {
+- (void)neptune_registerDefaultsWithLocalURL:(NSURL *)localURL
+                                   remoteURL:(NSURL *)remoteURL
+                                  completion:(void (^) (NSDictionary *dictionary, NSError *error))completion {
     NSParameterAssert(remoteURL);
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:remoteURL];
     [request setHTTPShouldHandleCookies:NO];
     [request setHTTPShouldUsePipelining:YES];
     [request setValue:@"application/x-plist" forHTTPHeaderField:@"Accept"];
-    [self nimbus_registerDefaultsWithLocalURL:localURL remoteURLRequest:request completion:completion];
+    [self neptune_registerDefaultsWithLocalURL:localURL remoteURLRequest:request completion:completion];
 }
 
 
-- (void)nimbus_registerDefaultsWithLocalURL:(NSURL *)URL
-                           remoteURLRequest:(NSURLRequest *)request
-                                 completion:(void (^) (NSDictionary *dictionary, NSError *error))completion {
+- (void)neptune_registerDefaultsWithLocalURL:(NSURL *)URL
+                            remoteURLRequest:(NSURLRequest *)request
+                                  completion:(void (^) (NSDictionary *dictionary, NSError *error))completion {
     NSParameterAssert(request);
     if (URL) {
         NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfURL:URL];

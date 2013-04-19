@@ -1,8 +1,8 @@
-# Nimbus
+# Neptune
 
-Nimbus allows easy configuration of NSUserDefaults from a remote plist.
+Neptune allows easy configuration of NSUserDefaults from a remote plist.
 
-Nimbus was inspired by [GroundControl](https://github.com/mattt/GroundControl) although it takes a slightly different design approach.
+Neptune was inspired by [GroundControl](https://github.com/mattt/GroundControl) although it takes a slightly different design approach.
 
 ## Features
 

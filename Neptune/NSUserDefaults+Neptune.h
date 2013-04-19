@@ -1,5 +1,5 @@
 //
-//  NSUserDefaults+Nimbus.h
+//  NSUserDefaults+Neptune.h
 //
 //  Created by Caleb Davenport on 4/18/13.
 //  Copyright (c) 2013 Caleb Davenport. All rights reserved.
@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSUserDefaults (Nimbus)
+@interface NSUserDefaults (Neptune)
 
 /**
  Register user defaults by first loading from a local file then by populating
@@ -17,9 +17,9 @@
  
  Completion will NOT be called on the main queue.
  */
-- (void)nimbus_registerDefaultsWithLocalURL:(NSURL *)localURL
-                                  remoteURL:(NSURL *)remoteURL
-                                 completion:(void (^) (NSDictionary *dictionary, NSError *error))completion;
+- (void)neptune_registerDefaultsWithLocalURL:(NSURL *)localURL
+                                   remoteURL:(NSURL *)remoteURL
+                                  completion:(void (^) (NSDictionary *dictionary, NSError *error))completion;
 
 /**
  Register user defaults by first loading from a local file then by populating
@@ -29,8 +29,8 @@
  
  Completion will NOT be called on the main queue.
  */
-- (void)nimbus_registerDefaultsWithLocalURL:(NSURL *)URL
-                           remoteURLRequest:(NSURLRequest *)request
-                                 completion:(void (^) (NSDictionary *dictionary, NSError *error))completion;
+- (void)neptune_registerDefaultsWithLocalURL:(NSURL *)URL
+                            remoteURLRequest:(NSURLRequest *)request
+                                  completion:(void (^) (NSDictionary *dictionary, NSError *error))completion;
 
 @end
