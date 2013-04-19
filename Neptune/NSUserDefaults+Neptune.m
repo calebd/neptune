@@ -9,7 +9,7 @@
 
 @implementation NSUserDefaults (Neptune)
 
-+ (NSOperationQueue *)nimbus_queue {
++ (NSOperationQueue *)neptune_queue {
     static NSOperationQueue *queue;
     static dispatch_once_t token;
     dispatch_once(&token, ^{
@@ -42,7 +42,7 @@
     }
     [NSURLConnection
      sendAsynchronousRequest:request
-     queue:[[self class] nimbus_queue]
+     queue:[[self class] neptune_queue]
      completionHandler:^(NSURLResponse *response, NSData *data, NSError *requestError) {
          if (data) {
              NSError *propertyListError;
