@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Neptune"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Simple registration of remote NSUserDefaults."
   s.description  = <<-DESC
   # Neptune
@@ -22,7 +22,7 @@ DESC
   }
   s.source        = {
     :git => "https://github.com/calebd/neptune.git",
-    :tag => "0.1"
+    :tag => "0.2"
   }
   s.platform     = :ios, '4.0'
   s.source_files = 'Neptune/**/*.{h,m}'
@@ -30,7 +30,7 @@ DESC
     :appledoc => [
       '--project-name',      'Neptune',
       '--project-company',   'Caleb Davenport',
-      '--company-id',        'me.dvnprt.caleb',
+      '--company-id',        'me.calebd',
       '--docset-copyright',  'Caleb Davenport',
       '--ignore',            'Common',
       '--index-desc',        'README.md',
