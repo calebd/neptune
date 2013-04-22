@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const NSUserDefaultsNeptuneErrorDomain;
+
 @interface NSUserDefaults (Neptune)
 
 /**

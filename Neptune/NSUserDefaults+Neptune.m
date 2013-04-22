@@ -7,6 +7,8 @@
 
 #import "NSUserDefaults+Neptune.m"
 
+NSString * const NSUserDefaultsNeptuneErrorDomain = @"NSUserDefaultsNeptuneErrorDomain";
+
 @implementation NSUserDefaults (Neptune)
 
 + (NSOperationQueue *)neptune_queue {
@@ -44,6 +46,18 @@
      sendAsynchronousRequest:request
      queue:[[self class] neptune_queue]
      completionHandler:^(NSURLResponse *response, NSData *data, NSError *requestError) {
+         if ([response isKindOfClass:[NSHTTPURLResponse class]]) {
+             NSInteger status = [(NSHTTPURLResponse *)response statusCode];
+             NSIndexSet *codes = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(200, 100)];
+             if (![codes containsIndex:status]) {
+                 NSError *error = [[NSError alloc]
+                                   initWithDomain:NSUserDefaultsNeptuneErrorDomain
+                                   code:status
+                                   userInfo:nil];
+                 completion(nil, error);
+                 return;
+             }
+         }
          if (data) {
              NSError *propertyListError;
              NSDictionary *dictionary = [NSPropertyListSerialization
