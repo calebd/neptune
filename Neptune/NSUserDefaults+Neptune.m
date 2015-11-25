@@ -2,10 +2,10 @@
 //  NSUserDefaults+Neptune.m
 //
 //  Created by Caleb Davenport on 4/18/13.
-//  Copyright (c) 2013 Caleb Davenport. All rights reserved.
+//  Copyright © 2013 Caleb Davenport. All rights reserved.
 //
 
-#import "NSUserDefaults+Neptune.m"
+#import "NSUserDefaults+Neptune.h"
 
 NSString * const NSUserDefaultsNeptuneErrorDomain = @"NSUserDefaultsNeptuneErrorDomain";
 

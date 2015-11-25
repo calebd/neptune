@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC6F24B1C05461C00BCC842 /* Neptune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC6F2401C05461C00BCC842 /* Neptune.framework */; };
+		3AC6F26F1C05470700BCC842 /* Neptune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC6F2651C05470700BCC842 /* Neptune.framework */; };
+		3AC6F2AD1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6F2AE1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6F2AF1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6F2B01C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */; };
+		3AC6F2B11C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */; };
+		3AC6F2B21C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */; };
+		3AC6F2B41C0547A700BCC842 /* NeptuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */; };
+		3AC6F2B51C0547A700BCC842 /* NeptuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */; };
+		3AC6F2B71C0547AA00BCC842 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F29B1C05475E00BCC842 /* Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6F2BB1C0547AB00BCC842 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F29E1C05475E00BCC842 /* Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC6F2BF1C0547AC00BCC842 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2A11C05475E00BCC842 /* Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC6F24C1C05461C00BCC842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC6F2371C05461C00BCC842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC6F23F1C05461C00BCC842;
+			remoteInfo = "Neptune iOS";
+		};
+		3AC6F2701C05470700BCC842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC6F2371C05461C00BCC842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC6F2641C05470700BCC842;
+			remoteInfo = "Neptune macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AC6F2401C05461C00BCC842 /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC6F24A1C05461C00BCC842 /* NeptuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC6F2651C05470700BCC842 /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC6F26E1C05470700BCC842 /* NeptuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC6F2811C05471300BCC842 /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC6F29A1C05475E00BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC6F29B1C05475E00BCC842 /* Neptune.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neptune.h; sourceTree = "<group>"; };
+		3AC6F29D1C05475E00BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC6F29E1C05475E00BCC842 /* Neptune.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neptune.h; sourceTree = "<group>"; };
+		3AC6F2A01C05475E00BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC6F2A11C05475E00BCC842 /* Neptune.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neptune.h; sourceTree = "<group>"; };
+		3AC6F2A41C05476400BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC6F2A61C05476400BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC6F2A91C05476400BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Neptune.h"; path = "Neptune/NSUserDefaults+Neptune.h"; sourceTree = SOURCE_ROOT; };
+		3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Neptune.m"; path = "Neptune/NSUserDefaults+Neptune.m"; sourceTree = SOURCE_ROOT; };
+		3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NeptuneTests.m; path = Tests/NeptuneTests.m; sourceTree = SOURCE_ROOT; };
+		3AC6F2C21C054A3000BCC842 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3AC6F2C41C054A3000BCC842 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		3AC6F2C61C054A3000BCC842 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		3AC6F2C71C054A3000BCC842 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		3AC6F2C81C054A3000BCC842 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		3AC6F2C91C054A3000BCC842 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		3AC6F2CB1C054A3000BCC842 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		3AC6F2CC1C054A3000BCC842 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		3AC6F2CD1C054A3000BCC842 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		3AC6F2CF1C054A3000BCC842 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D01C054A3000BCC842 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D11C054A3000BCC842 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D21C054A3000BCC842 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D41C054A3000BCC842 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D51C054A3000BCC842 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D61C054A3000BCC842 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D71C054A3000BCC842 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D81C054A3000BCC842 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2D91C054A3000BCC842 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3AC6F2DB1C054A3000BCC842 /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2DC1C054A3000BCC842 /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2DD1C054A3000BCC842 /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2DE1C054A3000BCC842 /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2E01C054A3000BCC842 /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2E11C054A3000BCC842 /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2E21C054A3000BCC842 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		3AC6F2E31C054A3000BCC842 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC6F23C1C05461C00BCC842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2471C05461C00BCC842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F24B1C05461C00BCC842 /* Neptune.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2611C05470700BCC842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F26B1C05470700BCC842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F26F1C05470700BCC842 /* Neptune.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F27D1C05471300BCC842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC6F2361C05461C00BCC842 = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2421C05461C00BCC842 /* Neptune */,
+				3AC6F24E1C05461C00BCC842 /* Tests */,
+				3AC6F2C01C054A3000BCC842 /* Vendor */,
+				3AC6F2411C05461C00BCC842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC6F2411C05461C00BCC842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2401C05461C00BCC842 /* Neptune.framework */,
+				3AC6F24A1C05461C00BCC842 /* NeptuneTests.xctest */,
+				3AC6F2651C05470700BCC842 /* Neptune.framework */,
+				3AC6F26E1C05470700BCC842 /* NeptuneTests.xctest */,
+				3AC6F2811C05471300BCC842 /* Neptune.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC6F2421C05461C00BCC842 /* Neptune */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */,
+				3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */,
+				3AC6F2981C05475E00BCC842 /* Configuration */,
+			);
+			name = Neptune;
+			path = "Neptune iOS";
+			sourceTree = "<group>";
+		};
+		3AC6F24E1C05461C00BCC842 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */,
+				3AC6F2A21C05476400BCC842 /* Configuration */,
+			);
+			name = Tests;
+			path = "Neptune iOSTests";
+			sourceTree = "<group>";
+		};
+		3AC6F2981C05475E00BCC842 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2991C05475E00BCC842 /* iOS */,
+				3AC6F29C1C05475E00BCC842 /* macOS */,
+				3AC6F29F1C05475E00BCC842 /* tvOS */,
+			);
+			name = Configuration;
+			path = Neptune/Configuration;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AC6F2991C05475E00BCC842 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F29B1C05475E00BCC842 /* Neptune.h */,
+				3AC6F29A1C05475E00BCC842 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3AC6F29C1C05475E00BCC842 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F29E1C05475E00BCC842 /* Neptune.h */,
+				3AC6F29D1C05475E00BCC842 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3AC6F29F1C05475E00BCC842 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2A11C05475E00BCC842 /* Neptune.h */,
+				3AC6F2A01C05475E00BCC842 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		3AC6F2A21C05476400BCC842 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2A31C05476400BCC842 /* iOS */,
+				3AC6F2A51C05476400BCC842 /* macOS */,
+				3AC6F2A81C05476400BCC842 /* tvOS */,
+			);
+			name = Configuration;
+			path = Tests/Configuration;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AC6F2A31C05476400BCC842 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2A41C05476400BCC842 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3AC6F2A51C05476400BCC842 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2A61C05476400BCC842 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3AC6F2A81C05476400BCC842 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2A91C05476400BCC842 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		3AC6F2C01C054A3000BCC842 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2C11C054A3000BCC842 /* xcconfigs */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3AC6F2C11C054A3000BCC842 /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2C21C054A3000BCC842 /* .gitignore */,
+				3AC6F2C31C054A3000BCC842 /* Base */,
+				3AC6F2CE1C054A3000BCC842 /* iOS */,
+				3AC6F2D31C054A3000BCC842 /* Mac OS X */,
+				3AC6F2D91C054A3000BCC842 /* README.md */,
+				3AC6F2DA1C054A3000BCC842 /* tvOS */,
+				3AC6F2DF1C054A3000BCC842 /* watchOS */,
+			);
+			path = xcconfigs;
+			sourceTree = "<group>";
+		};
+		3AC6F2C31C054A3000BCC842 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2C41C054A3000BCC842 /* Common.xcconfig */,
+				3AC6F2C51C054A3000BCC842 /* Configurations */,
+				3AC6F2CA1C054A3000BCC842 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3AC6F2C51C054A3000BCC842 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2C61C054A3000BCC842 /* Debug.xcconfig */,
+				3AC6F2C71C054A3000BCC842 /* Profile.xcconfig */,
+				3AC6F2C81C054A3000BCC842 /* Release.xcconfig */,
+				3AC6F2C91C054A3000BCC842 /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		3AC6F2CA1C054A3000BCC842 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2CB1C054A3000BCC842 /* Application.xcconfig */,
+				3AC6F2CC1C054A3000BCC842 /* Framework.xcconfig */,
+				3AC6F2CD1C054A3000BCC842 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		3AC6F2CE1C054A3000BCC842 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2CF1C054A3000BCC842 /* iOS-Application.xcconfig */,
+				3AC6F2D01C054A3000BCC842 /* iOS-Base.xcconfig */,
+				3AC6F2D11C054A3000BCC842 /* iOS-Framework.xcconfig */,
+				3AC6F2D21C054A3000BCC842 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3AC6F2D31C054A3000BCC842 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2D41C054A3000BCC842 /* Mac-Application.xcconfig */,
+				3AC6F2D51C054A3000BCC842 /* Mac-Base.xcconfig */,
+				3AC6F2D61C054A3000BCC842 /* Mac-DynamicLibrary.xcconfig */,
+				3AC6F2D71C054A3000BCC842 /* Mac-Framework.xcconfig */,
+				3AC6F2D81C054A3000BCC842 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
+		3AC6F2DA1C054A3000BCC842 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2DB1C054A3000BCC842 /* tvOS-Application.xcconfig */,
+				3AC6F2DC1C054A3000BCC842 /* tvOS-Base.xcconfig */,
+				3AC6F2DD1C054A3000BCC842 /* tvOS-Framework.xcconfig */,
+				3AC6F2DE1C054A3000BCC842 /* tvOS-StaticLibrary.xcconfig */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		3AC6F2DF1C054A3000BCC842 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6F2E01C054A3000BCC842 /* watchOS-Application.xcconfig */,
+				3AC6F2E11C054A3000BCC842 /* watchOS-Base.xcconfig */,
+				3AC6F2E21C054A3000BCC842 /* watchOS-Framework.xcconfig */,
+				3AC6F2E31C054A3000BCC842 /* watchOS-StaticLibrary.xcconfig */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AC6F23D1C05461C00BCC842 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2B71C0547AA00BCC842 /* Neptune.h in Headers */,
+				3AC6F2AD1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2621C05470700BCC842 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2BB1C0547AB00BCC842 /* Neptune.h in Headers */,
+				3AC6F2AE1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F27E1C05471300BCC842 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2BF1C0547AC00BCC842 /* Neptune.h in Headers */,
+				3AC6F2AF1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AC6F23F1C05461C00BCC842 /* Neptune iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC6F2541C05461C00BCC842 /* Build configuration list for PBXNativeTarget "Neptune iOS" */;
+			buildPhases = (
+				3AC6F23B1C05461C00BCC842 /* Sources */,
+				3AC6F23C1C05461C00BCC842 /* Frameworks */,
+				3AC6F23D1C05461C00BCC842 /* Headers */,
+				3AC6F23E1C05461C00BCC842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neptune iOS";
+			productName = "Neptune iOS";
+			productReference = 3AC6F2401C05461C00BCC842 /* Neptune.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AC6F2491C05461C00BCC842 /* Neptune iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC6F2571C05461C00BCC842 /* Build configuration list for PBXNativeTarget "Neptune iOS Tests" */;
+			buildPhases = (
+				3AC6F2461C05461C00BCC842 /* Sources */,
+				3AC6F2471C05461C00BCC842 /* Frameworks */,
+				3AC6F2481C05461C00BCC842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC6F24D1C05461C00BCC842 /* PBXTargetDependency */,
+			);
+			name = "Neptune iOS Tests";
+			productName = "Neptune iOSTests";
+			productReference = 3AC6F24A1C05461C00BCC842 /* NeptuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AC6F2641C05470700BCC842 /* Neptune macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC6F2761C05470700BCC842 /* Build configuration list for PBXNativeTarget "Neptune macOS" */;
+			buildPhases = (
+				3AC6F2601C05470700BCC842 /* Sources */,
+				3AC6F2611C05470700BCC842 /* Frameworks */,
+				3AC6F2621C05470700BCC842 /* Headers */,
+				3AC6F2631C05470700BCC842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neptune macOS";
+			productName = "Neptune macOS";
+			productReference = 3AC6F2651C05470700BCC842 /* Neptune.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AC6F26D1C05470700BCC842 /* Neptune macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC6F2791C05470700BCC842 /* Build configuration list for PBXNativeTarget "Neptune macOS Tests" */;
+			buildPhases = (
+				3AC6F26A1C05470700BCC842 /* Sources */,
+				3AC6F26B1C05470700BCC842 /* Frameworks */,
+				3AC6F26C1C05470700BCC842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC6F2711C05470700BCC842 /* PBXTargetDependency */,
+			);
+			name = "Neptune macOS Tests";
+			productName = "Neptune macOSTests";
+			productReference = 3AC6F26E1C05470700BCC842 /* NeptuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AC6F2801C05471300BCC842 /* Neptune tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC6F2921C05471300BCC842 /* Build configuration list for PBXNativeTarget "Neptune tvOS" */;
+			buildPhases = (
+				3AC6F27C1C05471300BCC842 /* Sources */,
+				3AC6F27D1C05471300BCC842 /* Frameworks */,
+				3AC6F27E1C05471300BCC842 /* Headers */,
+				3AC6F27F1C05471300BCC842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neptune tvOS";
+			productName = "Neptune tvOS";
+			productReference = 3AC6F2811C05471300BCC842 /* Neptune.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC6F2371C05461C00BCC842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HODINKEE;
+				TargetAttributes = {
+					3AC6F23F1C05461C00BCC842 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3AC6F2491C05461C00BCC842 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3AC6F2641C05470700BCC842 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3AC6F26D1C05470700BCC842 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3AC6F2801C05471300BCC842 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AC6F23A1C05461C00BCC842 /* Build configuration list for PBXProject "Neptune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AC6F2361C05461C00BCC842;
+			productRefGroup = 3AC6F2411C05461C00BCC842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC6F23F1C05461C00BCC842 /* Neptune iOS */,
+				3AC6F2491C05461C00BCC842 /* Neptune iOS Tests */,
+				3AC6F2641C05470700BCC842 /* Neptune macOS */,
+				3AC6F26D1C05470700BCC842 /* Neptune macOS Tests */,
+				3AC6F2801C05471300BCC842 /* Neptune tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC6F23E1C05461C00BCC842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2481C05461C00BCC842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2631C05470700BCC842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F26C1C05470700BCC842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F27F1C05471300BCC842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC6F23B1C05461C00BCC842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2B01C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2461C05461C00BCC842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2B41C0547A700BCC842 /* NeptuneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F2601C05470700BCC842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2B11C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F26A1C05470700BCC842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2B51C0547A700BCC842 /* NeptuneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC6F27C1C05471300BCC842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC6F2B21C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AC6F24D1C05461C00BCC842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC6F23F1C05461C00BCC842 /* Neptune iOS */;
+			targetProxy = 3AC6F24C1C05461C00BCC842 /* PBXContainerItemProxy */;
+		};
+		3AC6F2711C05470700BCC842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC6F2641C05470700BCC842 /* Neptune macOS */;
+			targetProxy = 3AC6F2701C05470700BCC842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AC6F2521C05461C00BCC842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2C61C054A3000BCC842 /* Debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AC6F2531C05461C00BCC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2C81C054A3000BCC842 /* Release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AC6F2551C05461C00BCC842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2D11C054A3000BCC842 /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Neptune/Configuration/iOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+			};
+			name = Debug;
+		};
+		3AC6F2561C05461C00BCC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2D11C054A3000BCC842 /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Neptune/Configuration/iOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+			};
+			name = Release;
+		};
+		3AC6F2581C05461C00BCC842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2CF1C054A3000BCC842 /* iOS-Application.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Configuration/iOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NeptuneTests;
+			};
+			name = Debug;
+		};
+		3AC6F2591C05461C00BCC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2CF1C054A3000BCC842 /* iOS-Application.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Configuration/iOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NeptuneTests;
+			};
+			name = Release;
+		};
+		3AC6F2771C05470700BCC842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2D71C054A3000BCC842 /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Neptune/Configuration/macOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+			};
+			name = Debug;
+		};
+		3AC6F2781C05470700BCC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2D71C054A3000BCC842 /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Neptune/Configuration/macOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+			};
+			name = Release;
+		};
+		3AC6F27A1C05470700BCC842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2D41C054A3000BCC842 /* Mac-Application.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Configuration/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NeptuneTests;
+			};
+			name = Debug;
+		};
+		3AC6F27B1C05470700BCC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2D41C054A3000BCC842 /* Mac-Application.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Configuration/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NeptuneTests;
+			};
+			name = Release;
+		};
+		3AC6F2931C05471300BCC842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2DD1C054A3000BCC842 /* tvOS-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Neptune/Configuration/tvOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+			};
+			name = Debug;
+		};
+		3AC6F2941C05471300BCC842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC6F2DD1C054A3000BCC842 /* tvOS-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Neptune/Configuration/tvOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC6F23A1C05461C00BCC842 /* Build configuration list for PBXProject "Neptune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6F2521C05461C00BCC842 /* Debug */,
+				3AC6F2531C05461C00BCC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC6F2541C05461C00BCC842 /* Build configuration list for PBXNativeTarget "Neptune iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6F2551C05461C00BCC842 /* Debug */,
+				3AC6F2561C05461C00BCC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC6F2571C05461C00BCC842 /* Build configuration list for PBXNativeTarget "Neptune iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6F2581C05461C00BCC842 /* Debug */,
+				3AC6F2591C05461C00BCC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC6F2761C05470700BCC842 /* Build configuration list for PBXNativeTarget "Neptune macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6F2771C05470700BCC842 /* Debug */,
+				3AC6F2781C05470700BCC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC6F2791C05470700BCC842 /* Build configuration list for PBXNativeTarget "Neptune macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6F27A1C05470700BCC842 /* Debug */,
+				3AC6F27B1C05470700BCC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC6F2921C05471300BCC842 /* Build configuration list for PBXNativeTarget "Neptune tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC6F2931C05471300BCC842 /* Debug */,
+				3AC6F2941C05471300BCC842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AC6F2371C05461C00BCC842 /* Project object */;
+}
