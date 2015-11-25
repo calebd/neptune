@@ -29,7 +29,7 @@ extension NSUserDefaults {
 
         NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: { data, response, error in
             guard
-                let response = response as? NSHTTPURLResponse where ClosedInterval(200, 299).contains(response.statusCode),
+                let response = response as? NSHTTPURLResponse where (200...299).contains(response.statusCode),
                 let data = data
             else {
                 completion?(nil, error)
