@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A24954F1C05548900C9003B /* Neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24954E1C05548900C9003B /* Neptune.swift */; };
+		3A2495501C05548900C9003B /* Neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24954E1C05548900C9003B /* Neptune.swift */; };
+		3A2495511C05548900C9003B /* Neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A24954E1C05548900C9003B /* Neptune.swift */; };
 		3AC6F24B1C05461C00BCC842 /* Neptune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC6F2401C05461C00BCC842 /* Neptune.framework */; };
 		3AC6F26F1C05470700BCC842 /* Neptune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC6F2651C05470700BCC842 /* Neptune.framework */; };
-		3AC6F2AD1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC6F2AE1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC6F2AF1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC6F2B01C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */; };
-		3AC6F2B11C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */; };
-		3AC6F2B21C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */; };
 		3AC6F2B41C0547A700BCC842 /* NeptuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */; };
 		3AC6F2B51C0547A700BCC842 /* NeptuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */; };
 		3AC6F2B71C0547AA00BCC842 /* Neptune.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC6F29B1C05475E00BCC842 /* Neptune.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A24954E1C05548900C9003B /* Neptune.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Neptune.swift; path = Neptune/Neptune.swift; sourceTree = SOURCE_ROOT; };
 		3AC6F2401C05461C00BCC842 /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC6F24A1C05461C00BCC842 /* NeptuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC6F2651C05470700BCC842 /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +52,6 @@
 		3AC6F2A41C05476400BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC6F2A61C05476400BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC6F2A91C05476400BCC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Neptune.h"; path = "Neptune/NSUserDefaults+Neptune.h"; sourceTree = SOURCE_ROOT; };
-		3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Neptune.m"; path = "Neptune/NSUserDefaults+Neptune.m"; sourceTree = SOURCE_ROOT; };
 		3AC6F2B31C0547A700BCC842 /* NeptuneTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NeptuneTests.m; path = Tests/NeptuneTests.m; sourceTree = SOURCE_ROOT; };
 		3AC6F2C21C054A3000BCC842 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3AC6F2C41C054A3000BCC842 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
@@ -152,8 +148,7 @@
 		3AC6F2421C05461C00BCC842 /* Neptune */ = {
 			isa = PBXGroup;
 			children = (
-				3AC6F2AB1C05477000BCC842 /* NSUserDefaults+Neptune.h */,
-				3AC6F2AC1C05477000BCC842 /* NSUserDefaults+Neptune.m */,
+				3A24954E1C05548900C9003B /* Neptune.swift */,
 				3AC6F2981C05475E00BCC842 /* Configuration */,
 			);
 			name = Neptune;
@@ -349,7 +344,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC6F2B71C0547AA00BCC842 /* Neptune.h in Headers */,
-				3AC6F2AD1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC6F2BB1C0547AB00BCC842 /* Neptune.h in Headers */,
-				3AC6F2AE1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +360,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC6F2BF1C0547AC00BCC842 /* Neptune.h in Headers */,
-				3AC6F2AF1C05477000BCC842 /* NSUserDefaults+Neptune.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC6F2B01C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */,
+				3A24954F1C05548900C9003B /* Neptune.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC6F2B11C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */,
+				3A2495501C05548900C9003B /* Neptune.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +578,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC6F2B21C05477000BCC842 /* NSUserDefaults+Neptune.m in Sources */,
+				3A2495511C05548900C9003B /* Neptune.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,12 +633,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC6F2D11C054A3000BCC842 /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Neptune/Configuration/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -654,11 +650,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC6F2D11C054A3000BCC842 /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Neptune/Configuration/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Release;
@@ -687,10 +686,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC6F2D71C054A3000BCC842 /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Neptune/Configuration/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -698,9 +701,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC6F2D71C054A3000BCC842 /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Neptune/Configuration/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Release;
@@ -733,10 +739,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC6F2DD1C054A3000BCC842 /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Neptune/Configuration/tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -744,9 +754,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC6F2DD1C054A3000BCC842 /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Neptune/Configuration/tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calebd.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Release;

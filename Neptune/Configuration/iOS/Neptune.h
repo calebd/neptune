@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Neptune/NSUserDefaults+Neptune.h>
 
 FOUNDATION_EXPORT double NeptuneVersionNumber;
 FOUNDATION_EXPORT const unsigned char NeptuneVersionString[];
